@@ -3,36 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>وب‌سایت شخصی عادل عزیزی</title>
+    <title>صفحه گیت‌هاب پیج عادل عزیزی</title>
+    <!-- لود کردن فونت زیبای فارسی وزیرمتن -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&display=swap" rel="stylesheet">
+    
     <style>
-        body {
-            font-family: Tahoma, Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            text-align: center;
-            padding: 50px;
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
         }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            display: inline-block;
-            max-width: 600px;
+        body {
+            font-family: 'Vazirmatn', Tahoma, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #2d3748;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            padding: 45px 30px;
+            max-width: 550px;
+            width: 100%;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        .avatar-circle {
+            width: 70px;
+            height: 70px;
+            background-color: #ebf8ff;
+            color: #3182ce;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: bold;
+            margin: 0 auto 25px auto;
+            border: 2px solid #bee3f8;
         }
         h1 {
-            color: #0056b3;
+            font-size: 22px;
+            color: #1a365d;
+            margin-bottom: 18px;
+            line-height: 1.6;
+            font-weight: 700;
         }
         p {
-            line-height: 1.6;
+            font-size: 15px;
+            color: #4a5568;
+            line-height: 1.8;
+            font-weight: 400;
+        }
+        .badge {
+            display: inline-block;
+            background-color: #edf2f7;
+            color: #718096;
+            font-size: 11px;
+            padding: 5px 14px;
+            border-radius: 20px;
+            margin-top: 25px;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>به وب‌سایت شخصی عادل عزیزی خوش آمدید</h1>
-        <p>این یک وب‌سایت ساده است که به عنوان اولین تمرین در پلتفرم گیت‌هاب پیجز (GitHub Pages) راه‌اندازی شده است.</p>
-        <p>در تمرین‌های بعدی، این صفحه را با ابزارهای سایت‌ساز و قالب‌های پیشرفته‌تر توسعه خواهیم داد.</p>
+    <div class="card">
+        <div class="avatar-circle">ع</div>
+        <h1>به صفحه گیتهاب پیج عادل عزیزی خوش امدید.</h1>
+        <p>این یک وب‌سایت ساده است که به عنوان اولین تمرین در پلتفرم گیت‌هاب پیجز راه‌اندازی شده است.</p>
+        <div class="badge">پروژه تمرینی ۱</div>
     </div>
 </body>
 </html>
